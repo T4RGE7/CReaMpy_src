@@ -1,4 +1,4 @@
-= Acknowledgements =
+=== Acknowledgements ===
 
 Cool is based on Sather164, which is itself based on the language Sather. Portions of this document were cribbed from the Sather164 manual; in turn, portions of the Sather164 manual are based on Sather documentation written by Stephen M. Omohundro.
 

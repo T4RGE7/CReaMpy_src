@@ -4,7 +4,7 @@ The general form a type checking rule is:
 {{$
 \frac{\vdots}{O,M,C \vdash e : T}
 }}$
-The rule should be read: In the type environment for objects $O$, methods $M$, and containing class $C$, the expression $e$ has type $T$. The dots above the horizontal bar stand for other statements about the types of sub-expressions of $e$. These other statements are hypotheses of the rule; if the hypotheses are satisfied, then the statement below the bar is true. In the conclusion, the "turnstile" ("$\vdash$") separates context ($O,M,C$) from statement ($e : T$).
+The rule should be read: In the type environment for objects $O$, methods $M$, and containing class $C$, the expression $e$ has type $T$. The dots above the horizontal bar stand for other statements about the types of sub-expressions of $e$. These other statements are hypotheses of the rule; if the hypotheses are satisfied, then the statement below the bar is true. In the conclusion, the "[[https://en.wikipedia.org/wiki/Turnstile_%28symbol%29|turnstile]]" ("$\vdash$") separates context ($O,M,C$) from statement ($e : T$).
 
 The rule for object identifiers is simply that if the environment assigns an identifier $Id$ type $T$, then $Id$ has type $T$. 
 {{$

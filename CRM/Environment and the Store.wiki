@@ -1,6 +1,6 @@
-= Environment and the Store =
+=== Environment and the Store ===
 
-Before we can present a semantics for Cool we need a number of concepts and a considerable amount of notation. An $\it environment$ is a mapping of variable identifiers to $\it locations$. Intuitively, an environment tells us for a given identifier the address of the memory location where that identifier's value is stored. For a given expression, the environment must assign a location to all identifiers to which the expression may refer. For the expression, e.g., $a + b$, we need an environment that maps $a$ to some location and $b$ to some location. We'll use the following syntax to describe environments, which is very similar to the syntax of type assumptions used in Section 12.
+Before we can present a semantics for Cool we need a number of concepts and a considerable amount of notation. An $\it environment$ is a mapping of variable identifiers to $\it locations$. Intuitively, an environment tells us for a given identifier the address of the memory location where that identifier's value is stored. For a given expression, the environment must assign a location to all identifiers to which the expression may refer. For the expression, e.g., $a + b$, we need an environment that maps $a$ to some location and $b$ to some location. We'll use the following syntax to describe environments, which is very similar to the syntax of type assumptions used in Section [[Type Rules|12]].
 
 {{$
 E = [a : l_{1} , b : l_{2}]

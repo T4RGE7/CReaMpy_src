@@ -344,4 +344,4 @@ In addition, the operational rules do not specify what happens in the event of a
 
 Each outstanding "method invocation" (static or dynamic) and each outstanding "new" object allocation expression counts as a "Cool Activation Record". (Just to be clear, that second clause about "new" is counting currently-resolving constructor calls, not "total objects living in the heap".) A Cool interpreter $\it must$ flag a "stack overflow" runtime error if and only if there are $\textbf{1000}$ (one thousand) or more outstanding Cool Activation Records.
 
-Finally, the rules given above do not explain the execution behaviour for dispatches to primitive methods defined in the $\tt Object$, $\tt IO$, or $\tt String$ classes. Descriptions of these primitive methods are given in Sections 8.3-8.5.
+Finally, the rules given above do not explain the execution behaviour for dispatches to primitive methods defined in the $\tt Object$, $\tt IO$, or $\tt String$ classes. Descriptions of these primitive methods are given in Sections [[Int|8.3]]-[[Bool|8.5]].

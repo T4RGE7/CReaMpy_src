@@ -5,4 +5,4 @@
 	Some object-oriented languages allow a class to inherit from multiple classes, which is equally aptly called "multiple inheritance."
 # object. ^[[Ojbect|4]]^
 	A shallow copy of $a$ copies $a$ itself, but does not recursively copy objects that $a$ points to.
-# five
+# void. ^[[Class definitions|5]]^

@@ -1,3 +1,3 @@
 = About this document =
 
-
+This version of The Cool Reference Manual was compiled by the RaspberryPi WirewoodSymbiote using VimWiki

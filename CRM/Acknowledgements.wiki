@@ -5,5 +5,3 @@ Cool is based on Sather164, which is itself based on the language Sather. Portio
 A number people have contributed to the design and implementation of Cool, including Manuel Fähndrich, David Gay, Douglas Hauge, Megan Jacoby, Tendo Kayiira, Carleton Miyamoto, and Michael Stoddart. Joe Darcy updated Cool to the current version.
 
 This version (used in Virginia CS 415) of Cool owes a great debt to George C. Necula and Bor-Yuh Evan Chang.
-
-Jim was here, and again, and now I'm logged out

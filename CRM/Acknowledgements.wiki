@@ -6,4 +6,4 @@ A number people have contributed to the design and implementation of Cool, inclu
 
 This version (used in Virginia CS 415) of Cool owes a great debt to George C. Necula and Bor-Yuh Evan Chang.
 
-Jim was here
+Jim was here, and again

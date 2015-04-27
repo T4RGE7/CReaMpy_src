@@ -1,4 +1,4 @@
-= Strings =
+=== Strings ===
 
 Strings are enclosed in double quotes $\rm "..."$. Within a string, a sequence '\c' denotes the two characters '\' and 'c', with the exception of the following: 
 {{{

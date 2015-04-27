@@ -1,4 +1,4 @@
-= Methods =
+=== Methods ===
 
 A method definition has the form
 {{{

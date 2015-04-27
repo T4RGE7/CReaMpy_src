@@ -1,4 +1,4 @@
-= Classes =
+=== Classes ===
 
 All code in Cool is organized into classes. Each class definition must be contained in a single source file, but multiple classes may be defined in the same file. Class definitions have the form:
 {{{

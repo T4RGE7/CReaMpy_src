@@ -1,0 +1,8 @@
+[[Bool|Previous]] [[The Cool Reference Manual|Up]] [[Lexical Structure|Next]]
+= Main Class =
+
+Every program must have a class $\rm Main$. Furthermore, the $\rm Main$ class must have a method $\rm main$ that takes no formal parameters. The $\rm main$ method may be defined in class $\rm Main$ or it may be inherited from another class. A program is executed by evaluating $\rm (new Main).main()$.
+
+The remaining sections of this manual provide a more formal definition of Cool. There are four sections covering lexical structure (Section 10), grammar (Section 11), type rules (Section 12), and operational semantics (Section 13).
+
+[[Bool|Previous]] [[The Cool Reference Manual|Up]] [[Lexical Structure|Next]]

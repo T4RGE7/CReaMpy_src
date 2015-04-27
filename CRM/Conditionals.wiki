@@ -1,0 +1,21 @@
+[[Dispatch|Previous]] [[Expressions|Up]] [[Loops|Next]]
+= Conditionals =
+
+A conditional has the form
+{{{
+if <expr> then <expr> else <expr> fi
+}}}
+The semantics of conditionals is standard. The predicate is evaluated first. If the predicate is $\rm true$, then the $\rm then$ branch is evaluated. If the predicate is $\rm false$, then the $\rm else$ branch is evaluated. The value of the conditional is the value of the evaluated branch.
+
+The predicate must have static type $\rm Bool$. The branches may have any static types. To specify the static type of the conditional, we define an operation $\sqcup$ (pronounced "join") on types as follows. Let $\rm A,B,D$ be any types other than $\rm SELF\_TYPE$. The $\it least\ type$ of a set of types means the least element with respect to the conformance relation $\leq$. 
+{{$
+\begin{eqnarray*}
+\tt A \sqcup B &=& \tt the\ least\ type\ C\ such\ that\ A \leq C\ and\ B \leq C \\
+\tt A \sqcup A &=& \tt A\ \hphantom{the least}(idempotent) \\
+\tt A \sqcup B &=& \tt B \sqcup A\ \hphantom{the le}(commutative) \\
+\tt SELF\_TYPE_D \sqcup A &=& \tt D \sqcup A
+\end{eqnarray*}
+}}$
+Let $\rm T$ and $\rm F$ be the static types of the branches of the conditional. Then the static type of the conditional is  $\tt T \sqcup F$. (think: Walk towards $\rm Object$ from each of $\rm T$ and $\rm F$ until the paths meet.)
+
+[[Dispatch|Previous]] [[Expressions|Up]] [[Loops|Next]]

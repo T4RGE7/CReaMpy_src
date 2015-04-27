@@ -1,0 +1,12 @@
+[[Loops|Previous]] [[Expressions|Up]] [[Let|Next]]
+= Blocks =
+
+A block has the form
+{{{
+{ <expr>; ... <expr>; }
+}}}
+The expressions are evaluated in left-to-right order. Every block has at least one expression; the value of a block is the value of the last expression. The expressions of a block may have any static types. The static type of a block is the static type of the last expression.
+
+An occasional source of confusion in Cool is the use of semi-colons (";"). Semi-colons are used as terminators in lists of expressions (e.g., the block syntax above) and not as expression separators. Semi-colons also terminate other Cool constructs, see Section 11 for details.
+
+[[Loops|Previous]] [[Expressions|Up]] [[Let|Next]]

@@ -1,0 +1,69 @@
+[[White Space|Previous]] [[The Cool Reference Manual|Up]] [[Precedence|Next]]
+= Cool Syntax =
+
+{{$
+\begin{eqnarray}
+program &::=& [\![class;]\!]^{+}
+\\
+class &::=& {\tt class\ TYPE\ }[{\tt inherits\ TYPE}] \{\ [\![feature;]\!]^{*}\ \}
+\\
+feature &::=& {\tt ID} (\ [\ formal [\![,formal]\!]^{*}\ ]): {\tt TYPE}\ \{\ expr\ \}
+\\
+&|& {\tt ID:TYPE}\ [\  <\!\!\!-\ expr\ ]
+\\
+formal &::=& {\tt ID:TYPE}
+\\
+expr &::=& {\tt ID }< \!\!\!-\ expr
+\\
+&|& expr[@{\tt TYPE}].{\tt ID}(\ [\ expr\ [\![,expr]\!]^{*}\ ]\ )
+\\
+&|& {\bf if}\ expr\ {\bf then}\ expr\ {\bf else}\ expr\ {\bf fi}
+\\
+&|& {\bf while}\ expr\ {\bf loop}\ expr\ {\bf pool}
+\\
+&|& {\ [\![expr;]\!]^{+}\ }
+\\
+&|& {\tt let\ ID:TYPE}\ [\ <\!\!\!-\ expr\ ]\ [\![{\tt ,ID:TYPE}\ [\ <\!\!\!-\ expr\ ]]\!]^{*}\ {\tt in}\ expr
+\\
+&|& {\tt case}\ expr\ {\tt of}\ [\![{\tt ID:TYPE} = >\ expr;]\!]^{+}\ {\tt esac}
+\\
+&|& {\tt new\ TYPE}
+\\
+&|& {\tt isvoid}\ expr
+\\
+&|& expr\ +\ expr
+\\
+&|& expr\ -\ expr
+\\
+&|& expr\ *\ expr
+\\
+&|& expr\ /\ expr
+\\
+&|& \sim expr
+\\
+&|& expr < \ expr
+\\
+&|& expr < = \ expr
+\\
+&|& expr = \ expr
+\\
+&|& {\tt not}\ expr
+\\
+&|& (expr)
+\\
+&|& {\tt ID}
+\\
+&|& {\rm integer}
+\\
+&|& {\rm string}
+\\
+&|& {\tt true}
+\\
+&|& {\tt false}
+\\
+{\bf Figure\ 1} &:& {\rm Cool\ syntax.}
+\end{eqnarray}
+}}$
+Figure 1 provides a specification of Cool syntax. The specification is not in pure Backus-Naur Form (BNF); for convenience, we also use some regular expression notation. Specifically, $A^{\ast}$ means zero or more $A$'s in succession; $A^+$ means one or more $A$'s. Items in square brackets $[\ldots]$ are optional. Double brackets  $\lbrack\!\lbrack \, \rbrack\!\rbrack $ are not part of Cool; they are used in the grammar as a meta-symbol to show association of grammar symbols (e.g.  $a \lbrack\!\lbrack b c \rbrack\!\rbrack ^ {+}$ means $a$ followed by one or more $bc$ pairs).
+
+[[White Space|Previous]] [[The Cool Reference Manual|Up]] [[Precedence|Next]]

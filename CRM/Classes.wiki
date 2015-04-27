@@ -1,0 +1,12 @@
+[[Getting Started|Previous]] [[The Cool Reference Manual|Up]] [[Features|Next]]
+= Classes =
+
+All code in Cool is organized into classes. Each class definition must be contained in a single source file, but multiple classes may be defined in the same file. Class definitions have the form:
+{{{
+class <type> [ inherits <type> ] {
+	<feature_list>
+};
+}}}
+The notation [ ... ] denotes an optional construct. All class names are globally visible. Class names begin with an uppercase letter. Classes may not be redefined.
+
+[[Getting Started|Previous]] [[The Cool Reference Manual|Up]] [[Features|Next]]

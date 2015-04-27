@@ -1,0 +1,82 @@
+("The Cool Reference Manual",
+	[
+	("Contents",),
+	("Introduction",),
+	("Getting Started",),
+	("Classes",
+		[
+		("Features",),
+		("Inheritance",)
+		]
+	),
+	("Types",
+		[
+		("SELF_TYPE",),
+		("Type Checking",)
+		]
+	),
+	("Attributes",
+		[
+		("Void",)
+		]
+	),
+	("Methods",),
+	("Expressions",
+		[
+		("Constants",),
+		("Identifiers",),
+		("Assignment",),
+		("Dispatch",),
+		("Conditionals",),
+		("Loops",),
+		("Blocks",),
+		("Let",),
+		("Case",),
+		("New",),
+		("Isvoid",),
+		("Arithmetic and Comparison Operations",)
+		]
+	),
+	("Basic Classes",
+		[
+		("Object",),
+		("IO",),
+		("Int",),
+		("String",),
+		("Bool",)
+		]
+	),
+	("Main Class",),
+	("Lexical Structure",
+		[
+		("Integers, Identifiers, and Special Notation",),
+		("Strings",),
+		("Comments",),
+		("Keywords",),
+		("White Space",)
+		]
+	),
+	("Cool Syntax",
+		[
+		("Precedence",)
+		]
+	),
+	("Type Rules",
+		[
+		("Type Environments",),
+		("Type Checking Rules",)
+		]
+	),
+	("Operational Semantics",
+		[
+		("Environment and the Store",),
+		("Syntax for Cool Objects",),
+		("Class definitions",),
+		("Operational Rules",)
+		]
+	),
+	("Cool Assembly Language",),
+	("Acknowledgements",),
+	("About this document ...",)
+	]
+)

@@ -1,0 +1,6 @@
+[[Precedence|Previous]] [[The Cool Reference Manual|Up]] [[Type Environments|Next]]
+= Type Rules =
+
+This section formally defines the type rules of Cool. The type rules define the type of every Cool expression in a given context. The context is the $\it type\ environment$, which describes the type of every unbound identifier appearing in an expression. The type environment is described in Section 12.1. Section 12.2 gives the type rules.
+
+[[Precedence|Previous]] [[The Cool Reference Manual|Up]] [[Type Environments|Next]]

@@ -1,0 +1,59 @@
+[[Syntax for Cool Objects|Previous]] [[Operational Semantics|Up]] [[Operational Rules|Next]]
+= Class definitions =
+
+In the rules presented in the next section, we need a way to refer to the definitions of attributes and methods for classes. Suppose we have the following Cool class definition:
+{{{
+class B {
+   s : String <- "Hello";
+   g (y:String) : Int {
+      y.concat(s)
+   };
+   f (x:Int) : Int {
+      x+1
+   };
+};
+
+class A inherits B {
+   a : Int;
+   b : B <- new B;
+   f(x:Int) : Int {
+      x+a
+   };
+};
+}}}
+
+Two mappings, called $\it class$ and $\it implementation$, are associated with $\it class$ definitions. The class mapping is used to get the attributes, as well as their types and initializations, of a particular class: 
+
+{{$
+class(a) = (s:String \leftarrow {\tt"Hello"}, a:Int \leftarrow O, b:B \leftarrow new\ B)
+}}$
+
+Note that the information for class $A$ contains everything that it inherited from class $B$, as well as its own definitions. If $B$ had inherited other attributes, those attributes would also appear in the information for $A$. The attributes are listed in the order they are inherited and then in source order: all the attributes from the greatest ancestor are listed first in the order in which they textually appear, then the attributes of the next greatest ancestor, and so on, on down to the attributes defined in the particular class. We rely on this order in describing how new objects are initialized.
+
+The general form of a class mapping is:
+
+{{$
+class(X) = (a_{1}:T_{1} \leftarrow e_{1}, \dots , a_{n}:T_{n} \leftarrow e_{n})
+}}$
+
+Note that every attribute has an initializing expression, even if the Cool program does not specify one for each attribute. The $\it default$ initialization for a variable or attribute is the default of its type. The default of $\tt Int$ is $\tt 0$, the default of $\tt String$ is  $\tt ""$, the default of $\tt Bool$ is $\tt false$, and the default of any other type is $\tt void$.5The default of type $T$ is written $D_{T}$.
+
+The implementation mapping gives information about the methods of a class. For the above example, $\it implementation$ of A is defined as follows:
+
+{{$
+\begin{eqnarray}
+implementation(A,f) &=& (x, x+a)
+\\
+implementation(A,g) &=& (y, y.concat(s))
+\end{eqnarray}
+}}$
+
+In general, for a class $X$ and a method $m$, 
+
+{{$
+implementation(X,m) = (x_{1}, x_{2}, \dots , x_{n}, e_{body})
+}}$
+
+specifies that method $m$ when invoked from class $X$, has formal parameters  $x_{1}, \ldots, x_{n}$, and the body of the method is expression $e_{body}$.
+
+[[Syntax for Cool Objects|Previous]] [[Operational Semantics|Up]] [[Operational Rules|Next]]

@@ -1,0 +1,6 @@
+[[Main Class|Previous]] [[The Cool Reference Manual|Up]] [[Integers, Identifiers, and Special Notation|Next]]
+= Lexical Structure =
+
+The lexical units of Cool are integers, type identifiers, object identifiers, special notation, strings, keywords, and white space.
+
+[[Main Class|Previous]] [[The Cool Reference Manual|Up]] [[Integers, Identifiers, and Special Notation|Next]]

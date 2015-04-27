@@ -1,0 +1,4 @@
+[[Arithmetic and Comparison Operations|Previous]] [[The Cool Reference Manual|Up]] [[Object|Next]]
+= Basic Classes =
+
+[[Arithmetic and Comparison Operations|Previous]] [[The Cool Reference Manual|Up]] [[Object|Next]]

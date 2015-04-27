@@ -1,0 +1,18 @@
+[[Cool Syntax|Previous]] [[Cool Syntax|Up]] [[Type Rules|Next]]
+= Precedence =
+
+The precedence of infix binary and prefix unary operations, from highest to lowest, is given by the following table:
+{{{
+.
+@
+~
+isvoid
+* /
++ -
+<=  <  =
+not
+<-
+}}}
+All binary operations are left-associative, with the exception of assignment, which is right-associative, and the three comparison operations, which do not associate.
+
+[[Cool Syntax|Previous]] [[Cool Syntax|Up]] [[Type Rules|Next]]

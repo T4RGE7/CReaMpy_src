@@ -1,0 +1,6 @@
+[[Methods|Previous]] [[The Cool Reference Manual|Up]] [[Constants|Next]]
+= Expressions =
+
+Expressions are the largest syntactic category in Cool. 
+
+[[Methods|Previous]] [[The Cool Reference Manual|Up]] [[Constants|Next]]

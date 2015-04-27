@@ -1,0 +1,10 @@
+[[Identifiers|Previous]] [[Expressions|Up]] [[Dispatch|Next]]
+= Assignment =
+
+An assignment has the form
+{{{
+<id> <- <expr>
+}}}
+The static type of the expression must conform to the declared type of the identifier. The value is the value of the expression. The static type of an assignment is the static type of $\rm <expr>$.
+
+[[Identifiers|Previous]] [[Expressions|Up]] [[Dispatch|Next]]

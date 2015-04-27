@@ -1,0 +1,28 @@
+[[Void|Previous]] [[The Cool Reference Manual|Up]] [[Expressions|Next]]
+= Methods =
+
+A method definition has the form
+{{{
+<id>(<id> : <type>,...,<id> : <type>): <type> { <expr> };
+}}}
+There may be zero or more formal parameters. The identifiers used in the formal parameter list must be distinct. The type of the method body must conform to the declared return type. When a method is invoked, the formal parameters are bound to the actual arguments and the expression is evaluated; the resulting value is the meaning of the method invocation. A formal parameter hides any definition of an attribute of the same name.
+
+To ensure type safety, there are restrictions on the redefinition of inherited methods. The rule is simple: If a class $\rm C$ inherits a method $\rm f$ from an ancestor class $\rm P$, then $\rm C$ may override the inherited definition of $\rm f$ provided the number of arguments, the types of the formal parameters, and the return type are exactly the same in both definitions.
+
+To see why some restriction is necessary on the redefinition of inherited methods, consider the following example:
+{{{
+class P {
+	f(): Int { 1 };
+};
+
+class C inherits P {
+	f(): String { "1" };
+};
+}}}
+Let $\rm p$ be an object with dynamic type $\rm P$. Then
+{{{
+p.f() + 1
+}}}
+is a well-formed expression with value 2. However, we cannot substitute a value of type $\rm C$ for $\rm p$, as it would result in adding a string to a number. Thus, if methods can be redefined arbitrarily, then subclasses may not simply extend the behavior of their parents, and much of the usefulness of inheritance, as well as type safety, is lost.
+
+[[Void|Previous]] [[The Cool Reference Manual|Up]] [[Expressions|Next]]

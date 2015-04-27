@@ -1,0 +1,10 @@
+[[New|Previous]] [[Expressions|Up]] [[Arithmetic and Comparison Operations|Next]]
+= Isvoid =
+
+The expression
+{{{
+isvoid expr
+}}}
+evaluates to $\rm true$ if $\rm expr$ is $\rm void$ and evaluates to $\rm false$ if $\rm expr$ is not $\rm void$.
+
+[[New|Previous]] [[Expressions|Up]] [[Arithmetic and Comparison Operations|Next]]

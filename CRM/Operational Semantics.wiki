@@ -1,0 +1,8 @@
+[[Type Checking Rules|Previous]] [[The Cool Reference Manual|Up]] [[Environment and the Store|Next]]
+= Operational Semantics =
+
+This section contains a mostly formal presentation of the operational semantics for the Cool language. The operational semantics define for every Cool expression what value it should produce in a given context. The context has three components: an environment, a store, and a self object. These components are described in the next section. Section 13.2 defines the syntax used to refer to Cool objects, and Section 13.3 defines the syntax used to refer to class definitions.
+
+Keep in mind that a formal semantics is a specification only--it does not describe an implementation. The purpose of presenting the formal semantics is to make clear all the details of the behavior of Cool expressions. How this behavior is implemented is another matter.
+
+[[Type Checking Rules|Previous]] [[The Cool Reference Manual|Up]] [[Environment and the Store|Next]]

@@ -1,4 +1,4 @@
-= Object =
+=== Object ===
 
 The $\rm Object$ class is the root of the inheritance graph. Even the other basic classes (e.g., $\rm IO$ and $\rm Int$) inherit from $\rm Object$ (and thus inherit the three methods listed below). It is an error to redefine $\rm Object$. Methods with the following declarations are defined:
 {{{
@@ -10,4 +10,4 @@ The method $\rm abort$ flushes all output and then halts program execution with 
 
 The method $\rm type\_name$ returns a string with the name of the (run-time, dynamic) class of the object.
 
-The method $\rm copy$ produces a $\it shallow$ copy of the object.^4^
+The method $\rm copy$ produces a $\it shallow$ copy of the object.^[[Footnotes|4]]^

@@ -1,5 +1,5 @@
-= Constants =
+=== Constants ===
 
-The simplest expressions are constants. The boolean constants are $\rm true$ and $\rm false$. Integer constants are unsigned strings of digits such as $\rm 0$, $\rm 123$, and $\rm 007$. String constants are sequences of characters enclosed in double quotes, such as $\rm "This\ is\ a\ string."$ String constants may be at most 1024 characters long. There are other restrictions on strings; see Section 10.
+The simplest expressions are constants. The boolean constants are $\rm true$ and $\rm false$. Integer constants are unsigned strings of digits such as $\rm 0$, $\rm 123$, and $\rm 007$. String constants are sequences of characters enclosed in double quotes, such as $\rm "This\ is\ a\ string."$ String constants may be at most 1024 characters long. There are other restrictions on strings; see Section [[Lexical Structure|10]].
 
 The constants belong to the basic classes $\rm Bool$, $\rm Int$, and $\rm String$. The value of a constant is an object of the appropriate basic class.

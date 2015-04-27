@@ -1,4 +1,4 @@
-= Case =
+=== Case ===
 
 A case expression has the form
 {{{

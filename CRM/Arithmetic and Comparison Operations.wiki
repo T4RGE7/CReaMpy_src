@@ -1,4 +1,4 @@
-= Arithmetic and Comparison Operations =
+=== Arithmetic and Comparison Operations ===
 
 $\bf Binary\ Arithmetic$
 
@@ -18,11 +18,11 @@ Cool has three comparison operations: $\rm <,\ <=,\ =$. These comparisons may be
 * $\rm expr1$ is a $\rm Bool$ if and only if $\rm expr2$ is a $\rm Bool$
 * Otherwise, $\rm expr1$ may be of any type (including $\rm SELF\_TYPE$) and $\rm expr2$ may be of any (possibly different) type (including $\rm SELF\_TYPE$).
 
-In all cases, the result of the comparison is a $\rm Bool$. See the type checking rules for more information.
+In all cases, the result of the comparison is a $\rm Bool$. See [[Type Checking Rules|the type checking rules]] for more information.
 
 In principle, there is nothing wrong with permitting equality tests between, for example, $\rm Bool$ and $\rm Int$. However, such a test must always be false and almost certainly indicates some sort of programming error. The Cool type checking rules catch such errors at compile-time instead of waiting until runtime.
 
-On non-basic objects, equality is decided via pointer equality (i.e., whether the memory addresses of the objects are the same). Equality is defined for $\rm void$: two $\rm void$ values are equal and a $\rm void$ value is never equal to a non-$\rm void$ value. See the operational semantics rules for more informaiton.
+On non-basic objects, equality is decided via pointer equality (i.e., whether the memory addresses of the objects are the same). Equality is defined for $\rm void$: two $\rm void$ values are equal and a $\rm void$ value is never equal to a non-$\rm void$ value. See [[Operational Rules|the operational semantics rules]] for more informaiton.
 
 $\bf Unary\ Expressions$
 

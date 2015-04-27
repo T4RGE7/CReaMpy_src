@@ -1,4 +1,4 @@
-= Types =
+=== Types ===
 
 In Cool, every class name is also a type. In addition, there is a type $\rm SELF\_TYPE$ that can be used in special circumstances.
 

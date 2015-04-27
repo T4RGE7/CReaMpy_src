@@ -1,4 +1,4 @@
-= Dispatch =
+=== Dispatch ===
 
 There are three forms of dispatch (i.e. method call) in Cool. The three forms differ only in how the called method is selected. The most commonly used form of dispatch is
 {{{

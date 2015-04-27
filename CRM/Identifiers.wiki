@@ -1,4 +1,4 @@
-= Identifiers =
+=== Identifiers ===
 
 The names of local variables, formal parameters of methods, $\rm self$, and class attributes are all expressions. The identifier $\rm self$ may be referenced, but it is an error to assign to $\rm self$ or to bind $\rm self$ in a $\rm let$, a $\rm case$, or as a formal parameter. It is also illegal to have attributes named $\rm self$.
 

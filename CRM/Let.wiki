@@ -1,4 +1,4 @@
-= Let =
+=== Let ===
 
 A let expression has the form
 {{{

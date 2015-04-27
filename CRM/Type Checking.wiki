@@ -1,4 +1,4 @@
-= Type Checking =
+=== Type Checking ===
 
 The Cool type system guarantees at compile time that execution of a program cannot result in runtime type errors. Using the type declarations for identifiers supplied by the programmer, the type checker infers a type for every expression in the program.
 

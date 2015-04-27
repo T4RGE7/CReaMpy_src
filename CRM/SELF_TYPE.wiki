@@ -1,4 +1,3 @@
-[[Types|Previous]] [[Types|Up]] [[Type Checking|Next]]
 = SELF_TYPE =
 
 The type $\rm SELF\_TYPE$ is used to refer to the type of the $\rm self$ variable. This is useful in classes that will be inherited by other classes, because it allows the programmer to avoid specifying a fixed final type at the time the class is written. For example, the program
@@ -24,5 +23,3 @@ From Definition 4.1, it follows that  $\tt SELF\_TYPE_{X} \leq SELF\_TYPE_{X}$. 
 \tt SELF\_TYPE_{C} \leq P\ \ if\ \ C \leq P
 }}$
 Finally, $\rm SELF\_TYPE$ may be used in the following places: $\rm new\ SELF\_TYPE$, as the return type of a method, as the declared type of a $\rm let$ variable, or as the declared type of an attribute. No other uses of $\rm SELF\_TYPE$ are permitted.
-
-[[Types|Previous]] [[Types|Up]] [[Type Checking|Next]]

@@ -1,4 +1,3 @@
-[[Features|Previous]] [[Classes|Up]] [[Types|Next]]
 = Inheritance =
 
 If a class definition has the form
@@ -11,5 +10,3 @@ The semantics of $\rm C\ inherits\ P$ is that $\rm C$ has all of the features de
 There is a distinguished class $\rm Object$. If a class definition does not specify a parent class, then the class inherits from $\rm Object$ by default. A class may inherit only from a single class; this is aptly called "single inheritance."^3^ The parent-child relation on classes defines a graph. This graph may not contain cycles. For example, if $\rm C$ inherits from $\rm P$, then $\rm P$ must not inherit from $\rm C$. Furthermore, if $\rm C$ inherits from $\rm P$, then $\rm P$ must have a class definition somewhere in the program. Because Cool has single inheritance, it follows that if both of these restrictions are satisfied, then the inheritance graph forms a tree with $\rm Object$ as the root.
 
 In addition to $\rm Object$, Cool has four other $\it basic\ classes$: $\rm Int$, $\rm String$, $\rm Bool$, and $\rm IO$. The basic classes are discussed in Section 8.
-
-[[Features|Previous]] [[Classes|Up]] [[Types|Next]]

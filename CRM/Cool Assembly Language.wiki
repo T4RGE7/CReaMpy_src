@@ -1,4 +1,1 @@
-[[Operational Rules|Previous]] [[The Cool Reference Manual|Up]] [[Acknowledgements|Next]]
 = Cool Assembly Language =
-
-[[Operational Rules|Previous]] [[The Cool Reference Manual|Up]] [[Acknowledgements|Next]]

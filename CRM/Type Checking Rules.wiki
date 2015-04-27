@@ -1,4 +1,3 @@
-[[Type Environments|Previous]] [[Type Rules|Up]] [[Operational Semantics|Next]]
 = Type Checking Rules =
 
 The general form a type checking rule is: 
@@ -292,5 +291,3 @@ T_0 & otherwise
 There are a number of semantic checks applied to Cool programs that are not captured by formal typing rules. For example, a Cool program cannot contain an inheritance cycle. Similarly, a Cool program cannot contain a class that inherits from $\rm String$. These rules are scattered through the $\it Cool\ Reference\ Manual$.
 
 The order in which these other checks are performed is $\it not\ specified$. If a Cool program contains both an inheritance cycle and also a class that inherits from $\rm String$, the Cool compiler may report whichever error it prefers.
-
-[[Type Environments|Previous]] [[Type Rules|Up]] [[Operational Semantics|Next]]

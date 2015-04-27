@@ -1,4 +1,3 @@
-[[Type Checking|Previous]] [[The Cool Reference Manual|Up]] [[Void|Next]]
 = Attributes =
 
 An attribute definition has the form
@@ -10,5 +9,3 @@ The expression is optional initialization that is executed when a new object is 
 When a new object of a class is created, all of the inherited and local attributes must be initialized. Inherited attributes are initialized first in inheritance order beginning with the attributes of the greatest ancestor class. Within a given class, attributes are initialized in the order they appear in the source text.
 
 Attributes are local to the class in which they are defined or inherited. Inherited attributes cannot be redefined.
-
-[[Type Checking|Previous]] [[The Cool Reference Manual|Up]] [[Void|Next]]

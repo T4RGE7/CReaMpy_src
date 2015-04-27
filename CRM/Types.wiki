@@ -1,4 +1,3 @@
-[[Inheritance|Previous]] [[The Cool Reference Manual|Up]] [[SELF_TYPE|Next]]
 = Types =
 
 In Cool, every class name is also a type. In addition, there is a type $\rm SELF\_TYPE$ that can be used in special circumstances.
@@ -15,5 +14,3 @@ $\bf Definition\ 4.1$ (Conformance) Let $\tt A,C,$ and $\tt P$ be types.
 * if $\tt A \leq C$ and $\tt C \le P$ then $\tt A \leq P$
 
 Because $\rm Object$ is the root of the class hierarchy, it follows that $\tt A \leq Object$ for all types $\tt A$.
-
-[[Inheritance|Previous]] [[The Cool Reference Manual|Up]] [[SELF_TYPE|Next]]

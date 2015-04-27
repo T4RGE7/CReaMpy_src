@@ -1,4 +1,3 @@
-[[Blocks|Previous]] [[Expressions|Up]] [[Case|Next]]
 = Let =
 
 A let expression has the form
@@ -14,5 +13,3 @@ If an identifier is defined multiple times in a $\rm let$, later bindings hide e
 The type of an initialization expression must conform to the declared type of the identifier. The type of $\rm let$ is the type of the body.
 
 The $\rm <expr>$ of a $\rm let$ extends as far (encompasses as many tokens) as the grammar allows.
-
-[[Blocks|Previous]] [[Expressions|Up]] [[Case|Next]]

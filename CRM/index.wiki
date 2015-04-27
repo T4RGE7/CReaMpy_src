@@ -1,1 +1,9 @@
-here
+Hello
+
+* [[Compilers]]
+* [[Grad PL]]
+* [[Ecommerce]]
+* [[OS]]
+* [[../notes/r/test]]
+* [[other]]
+* [[CRM]]

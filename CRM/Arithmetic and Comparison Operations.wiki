@@ -1,4 +1,3 @@
-[[Isvoid|Previous]] [[Expressions|Up]] [[Basic Classes|Next]]
 = Arithmetic and Comparison Operations =
 
 $\bf Binary\ Arithmetic$
@@ -30,5 +29,3 @@ $\bf Unary\ Expressions$
 Finally, there is one unary arithmetic and one unary logical operator.
 * The expression $\rm ~\ <expr>$ is the integer complement of $\rm <expr>$. The subexpression $\rm <expr>$ must have static type $\rm Int$ and the entire expression has static type $\rm Int$.
 * The expression $\rm not <expr>$ is the boolean complement of $\rm <expr>$. The subexpression $\rm <expr>$ must have static type $\rm Bool$ and the entire expression has static type $\rm Bool$.
-
-[[Isvoid|Previous]] [[Expressions|Up]] [[Basic Classes|Next]]

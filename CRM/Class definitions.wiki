@@ -1,4 +1,3 @@
-[[Syntax for Cool Objects|Previous]] [[Operational Semantics|Up]] [[Operational Rules|Next]]
 = Class definitions =
 
 In the rules presented in the next section, we need a way to refer to the definitions of attributes and methods for classes. Suppose we have the following Cool class definition:
@@ -55,5 +54,3 @@ implementation(X,m) = (x_{1}, x_{2}, \dots , x_{n}, e_{body})
 }}$
 
 specifies that method $m$ when invoked from class $X$, has formal parameters  $x_{1}, \ldots, x_{n}$, and the body of the method is expression $e_{body}$.
-
-[[Syntax for Cool Objects|Previous]] [[Operational Semantics|Up]] [[Operational Rules|Next]]

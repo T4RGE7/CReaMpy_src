@@ -1,4 +1,3 @@
-[[Dispatch|Previous]] [[Expressions|Up]] [[Loops|Next]]
 = Conditionals =
 
 A conditional has the form
@@ -17,5 +16,3 @@ The predicate must have static type $\rm Bool$. The branches may have any static
 \end{eqnarray*}
 }}$
 Let $\rm T$ and $\rm F$ be the static types of the branches of the conditional. Then the static type of the conditional is  $\tt T \sqcup F$. (think: Walk towards $\rm Object$ from each of $\rm T$ and $\rm F$ until the paths meet.)
-
-[[Dispatch|Previous]] [[Expressions|Up]] [[Loops|Next]]

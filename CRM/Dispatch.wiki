@@ -1,4 +1,3 @@
-[[Assignment|Previous]] [[Expressions|Up]] [[Conditionals|Next]]
 = Dispatch =
 
 There are three forms of dispatch (i.e. method call) in Cool. The three forms differ only in how the called method is selected. The most commonly used form of dispatch is
@@ -19,5 +18,3 @@ The other forms of dispatch are:
 The first form is shorthand for $\rm self.<id>(<expr>,...,<expr>)$.
 
 The second form provides a way of accessing methods of parent classes that have been hidden by redefinitions in child classes. Instead of using the class of the leftmost expression to determine the method, the method of the class explicitly specified is used. For example, $\rm e@B.f()$ invokes the method $\rm f$ in class $\rm B$ on the object that is the value of $\rm e$. For this form of dispatch, the static type to the left of "@" must conform to the type specified to the right of "@".
-
-[[Assignment|Previous]] [[Expressions|Up]] [[Conditionals|Next]]

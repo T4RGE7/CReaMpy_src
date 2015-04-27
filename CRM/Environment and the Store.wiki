@@ -1,4 +1,3 @@
-[[Operational Semantics|Previous]] [[Operational Semantics|Up]] [[Syntax for Cool Objects|Next]]
 = Environment and the Store =
 
 Before we can present a semantics for Cool we need a number of concepts and a considerable amount of notation. An $\it environment$ is a mapping of variable identifiers to $\it locations$. Intuitively, an environment tells us for a given identifier the address of the memory location where that identifier's value is stored. For a given expression, the environment must assign a location to all identifiers to which the expression may refer. For the expression, e.g., $a + b$, we need an environment that maps $a$ to some location and $b$ to some location. We'll use the following syntax to describe environments, which is very similar to the syntax of type assumptions used in Section 12.
@@ -60,5 +59,3 @@ S' &=& S[33/l_{c}]
 The first step is to allocate a location for the variable $c$. The location should be fresh, meaning that the current store does not have a mapping for it. The function $newloc()$ applied to a store gives us an unused location in that store. We then create a new environment $E'$, which maps $c$ to $l_{c}$ but also contains all of the mappings of $E$ for identifiers other than $c$. Note that if $c$ already has a mapping in $E$, the new environment $E'$ hides this old mapping. We must also update the store to map the new location to a value. In this case $l_{c}$ maps to the value $33$, which is the initial value for $c$ as defined by the let-expression.
 
 The example in this subsection oversimplifies Cool environments and stores a bit, because simple integers are not Cool values. Even integers are full-fledged objects in Cool.
-
-[[Operational Semantics|Previous]] [[Operational Semantics|Up]] [[Syntax for Cool Objects|Next]]

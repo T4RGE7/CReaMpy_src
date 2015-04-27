@@ -1,4 +1,4 @@
-= IO =
+=== IO ===
 
 The $\rm IO$ class provides the following methods for performing simple input and output operations:
 {{{

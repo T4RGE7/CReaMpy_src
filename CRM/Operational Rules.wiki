@@ -1,4 +1,4 @@
-= Operational Rules =
+=== Operational Rules ===
 
 Equipped with environments, stores, objects, and class definitions, we can now attack the operational semantics for Cool. The operational semantics is described by rules similar to the rules used in type checking. The general form of the rules is: 
 

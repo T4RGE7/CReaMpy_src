@@ -6,4 +6,4 @@ Identifiers are strings (other than keywords) consisting of letters, digits, and
 
 $\bf self$ and $\bf SELF\_TYPE$ are treated specially by Cool but are not treated as keywords. $\bf self$ should be reported by the lexer as an identifier and $\bf SELF\_TYPE$ should be reported by the lexer as a type. Both $\it are$ case sensitive.
 
-The special syntactic symbols (e.g., parentheses, assignment operator, etc.) are given in Figure [[1]].
+The special syntactic symbols (e.g., parentheses, assignment operator, etc.) are given in Figure [[Cool Syntax|1]].

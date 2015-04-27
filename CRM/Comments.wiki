@@ -1,4 +1,4 @@
-= Comments =
+=== Comments ===
 
 There are two forms of comments in Cool. Any characters between two dashes $\rm "-"$ and the next newline (or EOF, if there is no next newline) are treated as comments. Comments may also be written by enclosing text in  $(\ast \ldots \ast )$. The latter form of comment may be nested but may not contain EOF. 
 

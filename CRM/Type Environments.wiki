@@ -1,4 +1,4 @@
-= Type Environments =
+=== Type Environments ===
 
 To a first approximation, type checking in Cool can be thought of as a bottom-up algorithm: the type of an expression $e$ is computed from the (previously computed) types of $e$'s subexpressions. For example, an integer $\rm 1$ has type $\rm Int$; there are no subexpressions in this case. As another example, if $\tt e_n$ has type $\tt X$, then the expression  $\tt \{\ e_1; \ldots; e_n;\ \!\}$ has type $\tt X$.
 

@@ -1,7 +1,5 @@
 === About this document ===
 
-This version of The Cool Reference Manual was compiled by the RaspberryPi WirewoodSymbiote using VimWiki
+This version of The Cool Reference Manual was compiled by the RaspberryPi WirewoodSymbiote using [[https://code.google.com/p/vimwiki/|VimWiki]]
 
 Jim made all the mistakes.
-But we like him anyways
-^ For reals

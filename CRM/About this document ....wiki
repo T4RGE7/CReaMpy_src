@@ -4,3 +4,4 @@ This version of The Cool Reference Manual was compiled by the RaspberryPi Wirewo
 
 Jim made all the mistakes.
 But we like him anyways
+^ For reals

@@ -1,3 +1,3 @@
-=== Type Rules ===
+== Type Rules ==
 
 This section formally defines the type rules of Cool. The type rules define the type of every Cool expression in a given context. The context is the $\it type\ environment$, which describes the type of every unbound identifier appearing in an expression. The type environment is described in Section [[Type Environments|12.1]]. Section [[Type Checking Rules|12.2]] gives the type rules.

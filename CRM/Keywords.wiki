@@ -1,4 +1,4 @@
-=== Keywords ===
+== Keywords ==
 
 The keywords of cool are: $\bf class$, $\bf else$, $\bf false$, $\bf fi$, $\bf if$, $\bf in$, $\bf inherits$, $\bf isvoid$, $\bf let$, $\bf loop$, $\bf pool$, $\bf then$, $\bf while$, $\bf case$, $\bf esac$, $\bf new$, $\bf of$, $\bf not$, $\bf true$. Except for the constants $\bf true$ and $\bf false$, keywords are case insensitive.
 

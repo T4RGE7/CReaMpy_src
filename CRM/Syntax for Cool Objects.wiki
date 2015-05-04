@@ -1,4 +1,4 @@
-=== Syntax for Cool Objects ===
+== Syntax for Cool Objects ==
 
 Every Cool value is an object. Objects contain a list of named attributes, a bit like records in C. In addition, each object belongs to a class. We use the following syntax for values in Cool:
 

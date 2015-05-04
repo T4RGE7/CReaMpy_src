@@ -1,0 +1,15 @@
+=== Let ===
+
+A let expression has the form
+{{{
+let <id1> : <type1> [ <- <expr1> ], ..., <idn> : <typen> [ <- <exprn> ] in <expr>
+}}}
+The optional expressions are $\it initialization$; the other expression is the $\it body$. A $\rm let$ is evaluated as follows. First $\rm <expr1>$ is evaluated and the result bound to $\rm <id1>$. Then $\rm <expr2>$ is evaluated and the result bound to $\rm <id2>$, and so on, until all of the variables in the $\rm let$ are initialized. (If the initialization of $\rm <idk>$ is omitted, the default initialization of type $\rm <typek>$ is used.) Next the body of the $\rm let$ is evaluated. The value of the $\rm let$ is the value of the body.
+
+The $\rm let$ identifiers $\rm <id1>,...,<idn>$ are visible in the body of the $\rm let$. Furthermore, identifiers $\rm <id1>,...,<idk>$ are visible in the initialization of $\rm <idm>$ for any $\rm m \lt k$.
+
+If an identifier is defined multiple times in a $\rm let$, later bindings hide earlier ones. Identifiers introduced by $\rm let$ also hide any definitions for the same names in containing scopes. Every $\rm let$ expression must introduce at least one identifier.
+
+The type of an initialization expression must conform to the declared type of the identifier. The type of $\rm let$ is the type of the body.
+
+The $\rm <expr>$ of a $\rm let$ extends as far (encompasses as many tokens) as the grammar allows.

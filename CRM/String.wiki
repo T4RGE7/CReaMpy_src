@@ -1,4 +1,4 @@
-=== String ===
+== String ==
 
 The $\rm String$ class provides strings. The following methods are defined:
 {{{

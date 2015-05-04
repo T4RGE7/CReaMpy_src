@@ -1,4 +1,4 @@
-=== Main Class ===
+== Main Class ==
 
 Every program must have a class $\rm Main$. Furthermore, the $\rm Main$ class must have a method $\rm main$ that takes no formal parameters. The $\rm main$ method may be defined in class $\rm Main$ or it may be inherited from another class. A program is executed by evaluating $\rm (new Main).main()$.
 

@@ -1,4 +1,4 @@
-=== Precedence ===
+== Precedence ==
 
 The precedence of infix binary and prefix unary operations, from highest to lowest, is given by the following table:
 {{{

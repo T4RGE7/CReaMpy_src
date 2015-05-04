@@ -1,4 +1,4 @@
-=== Introduction ===
+== Introduction ==
 
 This manual describes the programming language Cool: the $\it C$lassroom $\it O$bject-$\it O$riented $\it L$anguage. Cool is a small language that can be implemented with reasonable effort in a one semester course. Still, Cool retains many of the features of modern programming languages including objects, static typing, and automatic memory management.
 

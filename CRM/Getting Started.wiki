@@ -1,4 +1,4 @@
-=== Getting Started ===
+== Getting Started ==
 
 Cool source files have extension $\rm .cl$. The programming projects will also define other file formats related to Cool but they are not officially part of the language specification.
 

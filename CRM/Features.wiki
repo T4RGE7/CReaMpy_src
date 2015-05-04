@@ -1,4 +1,4 @@
-=== Features ===
+== Features ==
 
 The body of a class definition consists of a list of feature definitions. A feature is either an $\it attribute$ or a $\it method$. An attribute of class $\rm A$ specifies a variable that is part of the state of objects of class $\rm A$. A method of class $\rm A$ is a procedure that may manipulate the variables and objects of class $\rm A$.
 

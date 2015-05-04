@@ -1,3 +1,3 @@
-=== Int ===
+== Int ==
 
 The $\rm Int$ class provides integers. There are no methods special to $\rm Int$. The default initialization for variables of type $\rm Int$ is 0 (not $\rm void$). It is an error to inherit from or redefine $\rm Int$.

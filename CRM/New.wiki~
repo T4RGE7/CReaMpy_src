@@ -1,0 +1,7 @@
+=== New ===
+
+A $\rm new$ expression has the form
+{{{
+new <type>
+}}}
+The value is a fresh object of the appropriate class. If the type is $\rm SELF\_TYPE$, then the value is a fresh object of the class of $\rm self$ in the current scope. The static type is $\rm <type>$.

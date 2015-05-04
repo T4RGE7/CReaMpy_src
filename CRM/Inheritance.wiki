@@ -1,4 +1,4 @@
-=== Inheritance ===
+== Inheritance ==
 
 If a class definition has the form
 {{{

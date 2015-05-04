@@ -1,4 +1,4 @@
-=== Type Checking Rules ===
+== Type Checking Rules ==
 
 The general form a type checking rule is: 
 {{$

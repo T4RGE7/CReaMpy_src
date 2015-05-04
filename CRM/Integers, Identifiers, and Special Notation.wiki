@@ -1,4 +1,4 @@
-=== Integers, Identifiers, and Special Notation ===
+== Integers, Identifiers, and Special Notation ==
 
 Integers are non-empty strings of digits 0-9. It is a lexer error if a literal integer constant is too big to be represented as a 32-bit signed integer. 32-bit signed integers range from -2,147,483,648 to +2,147,483,647. Cool integer constants are always non-negative, so valid integer constants range from 0 to 2,147,483,647.
 

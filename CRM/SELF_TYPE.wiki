@@ -1,4 +1,4 @@
-=== SELF_TYPE ===
+== SELF_TYPE ==
 
 The type $\rm SELF\_TYPE$ is used to refer to the type of the $\rm self$ variable. This is useful in classes that will be inherited by other classes, because it allows the programmer to avoid specifying a fixed final type at the time the class is written. For example, the program
 {{{

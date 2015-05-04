@@ -1,4 +1,4 @@
-=== Blocks ===
+== Blocks ==
 
 A block has the form
 {{{

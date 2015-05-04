@@ -1,4 +1,4 @@
-=== Attributes ===
+== Attributes ==
 
 An attribute definition has the form
 {{{

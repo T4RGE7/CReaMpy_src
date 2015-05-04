@@ -286,7 +286,7 @@ T_0 & otherwise
 \end{array}}
 {O_C,M,C \vdash f(x_1 : T_1,\ldots,x_n : T_n):T_0 \{\ e\ \};}\mbox{[Method]}
 }}$
-== Other Semantic Checks ==
+=== Other Semantic Checks ===
 
 There are a number of semantic checks applied to Cool programs that are not captured by formal typing rules. For example, a Cool program cannot contain an inheritance cycle. Similarly, a Cool program cannot contain a class that inherits from $\rm String$. These rules are scattered through the $\it Cool\ Reference\ Manual$.
 

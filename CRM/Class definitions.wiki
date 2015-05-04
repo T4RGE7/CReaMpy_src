@@ -1,4 +1,4 @@
-=== Class definitions ===
+== Class definitions ==
 
 In the rules presented in the next section, we need a way to refer to the definitions of attributes and methods for classes. Suppose we have the following Cool class definition:
 {{{

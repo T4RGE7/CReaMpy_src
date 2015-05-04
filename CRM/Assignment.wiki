@@ -1,4 +1,4 @@
-=== Assignment ===
+== Assignment ==
 
 An assignment has the form
 {{{

@@ -1,1 +1,1 @@
-=== Cool Assembly Language ===
+== Cool Assembly Language ==

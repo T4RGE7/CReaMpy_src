@@ -1,4 +1,4 @@
-=== Arithmetic and Comparison Operations ===
+== Arithmetic and Comparison Operations ==
 
 $\bf Binary\ Arithmetic$
 

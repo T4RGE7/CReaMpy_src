@@ -1,4 +1,4 @@
-=== Cool Syntax ===
+== Cool Syntax ==
 
 {{$
 \begin{eqnarray}

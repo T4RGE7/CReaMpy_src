@@ -1,9 +1,0 @@
-== Footnotes ==
-# one
-# Nil. $^{[[Features|2]]}$
-	In this example, $\rm Nil$ is assumed to be a subtype of $\tt List$.
-# inheritance. $^{[[Inheritance|3]]}$
-	Some object-oriented languages allow a class to inherit from multiple classes, which is equally aptly called "multiple inheritance."
-# object. ^[[Ojbect|4]]^
-	A shallow copy of $a$ copies $a$ itself, but does not recursively copy objects that $a$ points to.
-# void. ^[[Class definitions|5]]^

@@ -1,9 +1,0 @@
-=== Loops ===
-
-A loop has the form
-{{{
-while <expr> loop <expr> pool
-}}}
-The predicate is evaluated before each iteration of the loop. If the predicate is $\rm false$, the loop terminates and $\rm void$ is returned. If the predicate is $\rm true$, the body of the loop is evaluated and the process repeats.
-
-The predicate must have static type $\rm Bool$. The body may have any static type. The static type of a loop expression is $\rm Object$.

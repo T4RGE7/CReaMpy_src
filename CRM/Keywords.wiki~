@@ -1,5 +1,0 @@
-=== Keywords ===
-
-The keywords of cool are: $\bf class$, $\bf else$, $\bf false$, $\bf fi$, $\bf if$, $\bf in$, $\bf inherits$, $\bf isvoid$, $\bf let$, $\bf loop$, $\bf pool$, $\bf then$, $\bf while$, $\bf case$, $\bf esac$, $\bf new$, $\bf of$, $\bf not$, $\bf true$. Except for the constants $\bf true$ and $\bf false$, keywords are case insensitive.
-
-To conform to the rules for other objects, the first letter of $\bf true$ and $\bf false$ must be lowercase; the trailing letters may be upper or lower case. Thus $\bf FALse$ is not a keyword but a [[Integers, Identifiers, and Special Notation|type identifier]].

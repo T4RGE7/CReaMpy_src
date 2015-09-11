@@ -188,8 +188,7 @@ class Main {
 
 Might produce this control-flow graph:
 
-IMAGE
-{{http://192.168.1.4/CRM/images/cfg-example.png}}
+{{($URL)cfg-example.png}}
 
 While you do not have to match the reference compiler exactly, inspecting its control-flow graphs can help you debug your own code to create control-flow graphs.
 

@@ -194,7 +194,7 @@ While you do not have to match the reference compiler exactly, inspecting its co
 
 === Performance Model ===
 
-As discussed above, the Cool reference compiler also includes a reference machine simulator to interpret Cool Assembly Language instructions. This simulator can be invoked directly by passing a $\rm .cl-asm$ file to $\rm cool.exe$:
+As discussed above, the Cool reference compiler also includes a reference machine simulator to interpret Cool Assembly Language instructions. This simulator can be invoked directly by passing a $\rm .cl \HY asm$ file to $\rm cool.exe$:
 
 {{{
 cool$ cat hello-world.cl

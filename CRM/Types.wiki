@@ -6,11 +6,11 @@ A $\it type\ declaration$ has the form $\rm x:C$, where $\rm x$ is a variable an
 
 The basic type rule in Cool is that if a method or variable expects a value of type $\rm P$, then any value of type $\rm C$ may be used instead, provided that $\rm P$ is an ancestor of $\rm C$ in the class hierarchy. In other words, if $\rm C$ inherits from $\rm P$, either directly or indirectly, then a $\rm C$ can be used wherever a $\rm P$ would suffice.
 
-When an object of class $\rm C$ may be used in place of an object of class $\rm P$, we say that $\rm C$ $\it conforms$ to $\rm P$ or that $C \le P$ (think: $\rm C$ is lower down in the inheritance tree). As discussed above, conformance is defined in terms of the inheritance graph.
+When an object of class $\rm C$ may be used in place of an object of class $\rm P$, we say that $\rm C$ $\it conforms$ to $\rm P$ or that $\tt C \le P$ (think: $\rm C$ is lower down in the inheritance tree). As discussed above, conformance is defined in terms of the inheritance graph.
 
 $\bf Definition\ 4.1$ (Conformance) Let $\tt A,C,$ and $\tt P$ be types.
-* $\tt A \le A$ for all types $\tt A$
-* if $\tt C$ inherits from $\tt P$, then $\tt C \leq P$
+* $\tt A \le A$ for all types $\rm A$
+* if $\rm C$ inherits from $\rm P$, then $\tt C \leq P$
 * if $\tt A \leq C$ and $\tt C \le P$ then $\tt A \leq P$
 
 Because $\rm Object$ is the root of the class hierarchy, it follows that $\tt A \leq Object$ for all types $\tt A$.

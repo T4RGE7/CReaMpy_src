@@ -1,1 +1,2 @@
 == The Cool Reference Manual ==
+====== Cool and the Cool Reference Manual Copyright ©1995-2006 by Alexx Aiken. All rights reserved. This version of the Cool Reference Manual has been modified by Wes Weimer. All of the good things herein should be credited to Alex Aiken. All mistakes should be attributed to Wes Weimer (in the pull request where a solution is proposed). ======

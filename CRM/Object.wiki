@@ -6,8 +6,8 @@ abort() : Object
 type_name() : String
 copy() : SELF_TYPE
 }}}
-The method $\rm abort$ flushes all output and then halts program execution with the error message $\rm "abort \backslash n"$.
+The method $\rm abort$ flushes all output and then halts program execution with the error message $\rm \LQT abort \backslash n \RQT$.
 
 The method $\rm type\_name$ returns a string with the name of the (run-time, dynamic) class of the object.
 
-The method $\rm copy$ produces a $\it shallow$ copy of the object.^[[Footnotes|4]]^
+The method $\rm copy$ produces a $\it shallow$ copy of the object.([[Footnotes|4]])

@@ -101,7 +101,7 @@ v_{1}, S_{2}, [a_{1} : l_{1}, \dots , a_{n} : l_{n}] \vdash {a_{1} \leftarrow e_
 }{so, S_{1}, E \vdash new \ T : v_{1}, S_{3}}\mbox{[New]}
 }}$
 
-The tricky thing in a $\tt new$ expression is to initialize the attributes in the right order. If an attribute does not have an initializer, $\it do \ not$ evaluate an assignment expression for it in the final step. Note also that, during initialization, attributes are bound to the default of the appropriate class.
+The tricky thing in a $\rm new$ expression is to initialize the attributes in the right order. If an attribute does not have an initializer, $\it do \ not$ evaluate an assignment expression for it in the final step. Note also that, during initialization, attributes are bound to the default of the appropriate class.
 
 {{$
 \frac{\begin{array}{l}
@@ -153,7 +153,7 @@ v_{0}, S_{n+3}, [a_{1} : l_{a_{1}}, \dots , a_{m} : l_{a_{m}}, x_{1} : l_{x_{1}}
 {so, S_{1}, E \vdash e_{0}@T.f(e_{1}, \dots , e_{n}) : v_{n+1}, S_{n+4}}\mbox{[Static Dispatch]}
 }}$
 
-The two dispatch rules do what one would expect. The arguments are evaluated and saved. Next, the expression on the left-hand side of the $\tt "."$ is evaluated. In a normal dispatch, the class of this expression is used to determine the method to invoke; otherwise the class is specified in the dispatch itself.
+The two dispatch rules do what one would expect. The arguments are evaluated and saved. Next, the expression on the left-hand side of the $\rm \LQT . \RQT$ is evaluated. In a normal dispatch, the class of this expression is used to determine the method to invoke; otherwise the class is specified in the dispatch itself.
 
 {{$
 \frac{\begin{array}{l}

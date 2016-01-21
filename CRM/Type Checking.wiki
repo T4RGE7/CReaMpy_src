@@ -6,6 +6,6 @@ It is important to distinguish between the type assigned by the type checker to 
 
 The distinction between static and dynamic types is needed because the type checker cannot, at compile time, have perfect information about what values will be computed at runtime. Thus, in general, the static and dynamic types may be different. What we require, however, is that the type checker's static types be $\it sound$ with respect to the dynamic types.
 
-$\bf Definition 4.2$ For any expression $\tt e$, let $\tt D_{e}$ be a dynamic type of $\tt e$ and let $\tt S_{e}$ be the static type inferred by the type checker. Then the type checker is $\it sound$ if for all expressions $\tt e$ it is the case that $\tt D_{e} \leq S_{e}$.
+$\bf Definition\ 4.2$ For any expression $\tt e$, let $\tt D_{e}$ be a dynamic type of $\tt e$ and let $\tt S_{e}$ be the static type inferred by the type checker. Then the type checker is $\it sound$ if for all expressions $\tt e$ it is the case that $\tt D_{e} \leq S_{e}$.
 
 Put another way, we require that the type checker err on the side of overestimating the type of an expression in those cases where perfect accuracy is not possible. Such a type checker will never accept a program that contains type errors. However, the price paid is that the type checker will reject some programs that would actually execute without runtime errors.

@@ -1,6 +1,6 @@
 == Strings ==
 
-Strings are enclosed in double quotes $\rm "..."$. Within a string, a sequence '\c' denotes the two characters '\' and 'c', with the exception of the following: 
+Strings are enclosed in double quotes $\rm \LQT ... \RQT$. Within a string, a sequence '\c' denotes the two characters '\' and 'c', with the exception of the following: 
 {{{
 \t tab
 \n newline
@@ -24,7 +24,7 @@ class Main inherits IO {
 	} ;
 } ;
 }}}
-* Output: $\rm She\ said,\ \backslash "Hello.\backslash "$
+* Output: $\rm She\ said,\ \backslash \LQT Hello.\backslash \RQT$
 
 A string may not contain EOF; strings cannot cross file boundaries. A string may not contain NUL, the character with ASCII value 0. The lexer must reject source text that contains malformed strings.
 

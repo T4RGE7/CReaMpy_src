@@ -35,7 +35,7 @@ The general form of a class mapping is:
 class(X) = (a_{1}:T_{1} \leftarrow e_{1}, \dots , a_{n}:T_{n} \leftarrow e_{n})
 }}$
 
-Note that every attribute has an initializing expression, even if the Cool program does not specify one for each attribute. The $\it default$ initialization for a variable or attribute is the default of its type. The default of $\tt Int$ is $\tt 0$, the default of $\tt String$ is  $\tt ""$, the default of $\tt Bool$ is $\tt false$, and the default of any other type is $\tt void$^[[Footnotes|5]]^.5The default of type $T$ is written $D_{T}$.
+Note that every attribute has an initializing expression, even if the Cool program does not specify one for each attribute. The $\it default$ initialization for a variable or attribute is the default of its type. The default of $\tt Int$ is $\tt 0$, the default of $\rm String$ is  $\tt ""$, the default of $\rm Bool$ is $\rm false$, and the default of any other type is $\rm void$. ([[Footnotes|5]]) The default of type $T$ is written $D_{T}$.
 
 The implementation mapping gives information about the methods of a class. For the above example, $\it implementation$ of A is defined as follows:
 

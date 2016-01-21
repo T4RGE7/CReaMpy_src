@@ -30,12 +30,12 @@ Given object $\rm c$ of class $\rm Cons$ and object $\rm l$ of class $\rm List$,
 {{{
 c.init(1,l)
 }}}
-This notation is $\it object-oriented\ dispatch$. There may be many definitions of $\rm init$ methods in many different classes. The dispatch looks up the class of the object $\rm c$ to decide which $\rm init$ method to invoke. Because the class of $\rm c$ is $\rm Cons$, the $\rm init$ method in the $\rm Cons$ class is invoked. Within the invocation, the variables $\rm xcar$ and $\rm xcdr$ refer to $\rm c$'s attributes. The special variable $\rm self$ refers to the object on which the method was dispatched, which, in the example, is $\rm c$ itself.
+This notation is $\it object \HY oriented\ dispatch$. There may be many definitions of $\rm init$ methods in many different classes. The dispatch looks up the class of the object $\rm c$ to decide which $\rm init$ method to invoke. Because the class of $\rm c$ is $\rm Cons$, the $\rm init$ method in the $\rm Cons$ class is invoked. Within the invocation, the variables $\rm xcar$ and $\rm xcdr$ refer to $\rm c$'s attributes. The special variable $\rm self$ refers to the object on which the method was dispatched, which, in the example, is $\rm c$ itself.
 
 There is a special form $\rm new\ C$ that generates a fresh object of class $\rm C$. An object can be thought of as a record that has a slot for each of the attributes of the class as well as pointers to the methods of the class. A typical dispatch for the $\rm init$ method is:
 {{{
 (new Cons).init(1,new Nil)
 }}}
-This example creates a new cons cell and initializes the "car" of the cons cell to be 1 and the "cdr" to be $\rm new\ Nil$.^[[Footnotes|2]]^ There is no mechanism in Cool for programmers to deallocate objects. Cool has $\it automatic\ memory\ management$; objects that cannot be used by the program are deallocated by a runtime garbage collector.
+This example creates a new cons cell and initializes the "car" of the cons cell to be 1 and the "cdr" to be $\rm new\ Nil$.([[Footnotes|2]]) There is no mechanism in Cool for programmers to deallocate objects. Cool has $\it automatic\ memory\ management$; objects that cannot be used by the program are deallocated by a runtime garbage collector.
 
 Attributes are discussed further in Section [[Attributes|5]] and methods are discussed further in Section [[Methods|6.]]

@@ -112,7 +112,7 @@ T'_{n+1} & {\rm otherwise}
 }}$
 To type check a dispatch, each of the subexpressions must first be type checked. The type $T_0$ of $e_0$ determines which declaration of the method $f$ is used. The argument types of the dispatch must conform to the declared argument types. Note that the type of the result of the dispatch is either the declared return type or $T_0$ in the case that the declared return type is $\tt SELF\_TYPE$. The only difference in type checking a static dispatch is that the class $T$ of the method $f$ is given in the dispatch, and the type $T_0$ must conform to $T$.
 
-The type checking rules for $\rm if$ and $\rm {-}$ expressions are straightforward. See Section [[Conditionals|7.5]] for the definition of the $\sqcup$ operation. 
+The type checking rules for $\rm if$ and $\rm \{ \HY \}$ expressions are straightforward. See Section [[Conditionals|7.5]] for the definition of the $\sqcup$ operation. 
 {{$
 \frac{\begin{array}{l}
 O,M,C \vdash e_1:Bool

@@ -12,7 +12,7 @@ The predicate must have static type $\rm Bool$. The branches may have any static
 \tt A \sqcup B &=& \tt the\ least\ type\ C\ such\ that\ A \leq C\ and\ B \leq C \\
 \tt A \sqcup A &=& \tt A\ \hphantom{the least}(idempotent) \\
 \tt A \sqcup B &=& \tt B \sqcup A\ \hphantom{the le}(commutative) \\
-\tt SELF\_TYPE_D \sqcup A &=& \tt D \sqcup A
+\tt SELF\_TYPE_{D} \sqcup A &=& \tt D \sqcup A
 \end{eqnarray*}
 }}$
 Let $\rm T$ and $\rm F$ be the static types of the branches of the conditional. Then the static type of the conditional is  $\tt T \sqcup F$. (think: Walk towards $\rm Object$ from each of $\rm T$ and $\rm F$ until the paths meet.)
